@@ -1,4 +1,4 @@
-.detail-pricing-header {
+/* .detail-pricing-header {
   color: black;
   font-weight: 600;
   font-size: 24px;
@@ -28,4 +28,120 @@ ol.custom-numbers li::before {
   content: counter(my-awesome-counter) '. ';
   color: #2b90d9;
   font-weight: bold;
+}
+
+.discount {
+  border-radius: 4px 2px 2px 4px;
+  color: #fff;
+  display: inline-block;
+  font-family: NunitoSansBold,sans-serif;
+  font-size: clamp(.75rem,5vw,.75rem);
+  font-weight: 700;
+  height: 32px;
+  background-color: #487cc6;
+  padding: 8px 20px 8px 10px;
+  position: relative;
+}
+
+.discount::after {
+  border-left: 15px solid #487cc6;
+  border-bottom: 16px solid transparent;
+  border-top: 16px solid transparent;
+  content: "";
+  margin-right: -14px;
+  margin-top: -8px;
+  position: absolute;
+  right: 0;
+}
+
+.before-discount {
+  color: #29384e;
+  font-family: NunitoSansBold,sans-serif;
+  font-size: clamp(.875rem,5vw,.875rem);
+  font-weight: 700;
+  opacity: .8;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  text-decoration: line-through;
+} */
+
+.price-card {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgb(17 26 104 / 10%);
+  display: inline-block;
+  margin-bottom: 40px;
+  padding: 32px 18px 24px;
+  position: relative;
+  width: 254px;
+}
+
+.price-card__title {
+  color: #29384e;
+  font-family: NunitoSansBold,sans-serif;
+  font-size: clamp(1.25rem,5vw,1.25rem);
+  font-weight: 700;
+  letter-spacing: .005em;
+  line-height: 1.625rem;
+  margin: 0.5rem 0 20px 0 ;
+}
+
+.price-card__tag-discount {
+  border-radius: 4px 2px 2px 4px;
+  color: #fff;
+  display: inline-block;
+  font-family: NunitoSansBold,sans-serif;
+  font-size: clamp(.75rem,5vw,.75rem);
+  font-weight: 700;
+  height: 32px;
+  padding: 8px 20px 8px 10px;
+  position: relative;
+  background-color: #00bfa6;
+}
+
+.price-card__tag-discount::after {
+  border-bottom: 16px solid transparent;
+  border-top: 16px solid transparent;
+  content: "";
+  margin-right: -14px;
+  margin-top: -8px;
+  position: absolute;
+  right: 0;
+  border-left: 15px solid #00bfa6;
+}
+
+.price-card__discount {
+  color: #29384e;
+  font-family: NunitoSansBold,sans-serif;
+  font-size: clamp(.875rem,5vw,.875rem);
+  font-weight: 700;
+  opacity: .8;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  text-decoration: line-through;
+}
+
+.price-card__price {
+  color: #487cc6;
+  font-family: NunitoSansBold,sans-serif;
+  font-weight: 700;
+  letter-spacing: -.02em;
+  line-height: 1.75rem;
+  margin-bottom: 28px;
+  margin-top: 10px;
+  font-size: clamp(1.25rem,10vw,1.5rem);
+}
+
+.price-card__list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.price-card__list-item {
+  font-size: clamp(.875rem,5vw,.875rem);
+  padding: 10px 0;
+  position: relative;
+  text-align: left;
 }
