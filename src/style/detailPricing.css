@@ -226,3 +226,14 @@ ol.custom-numbers li::before {
     width: unset;
   }
 }
+
+.disable-price {
+  opacity: 0.6;
+  background: #ffb606;
+  color: white;
+  border: 0;
+}
+
+.disable-price:hover {
+  background: #ffb606;
+}

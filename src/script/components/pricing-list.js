@@ -25,7 +25,7 @@ class PricingList extends HTMLElement {
                     </ul>
                     <span class="pricing-price">Gratis</span>
                     <div class="pricing-regis d-flex justify-content-center d-block">
-                      <a href="https://forms.gle/bT991Fa6jyMUUCCT6" target="_blank" class="pricing-button"><strong>DAFTAR</strong></a>
+                      <a class="pricing-button disable-price"><strong>TUTUP</strong></a>
                     </div>
                   </div>
                   <div class="pricing-plan">

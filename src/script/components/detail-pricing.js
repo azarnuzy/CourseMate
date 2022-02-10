@@ -147,12 +147,12 @@ class DetailPricing extends HTMLElement {
               </div>
               <p class="price-card__price">Rp. 0</p>
               <ul class="price-card__list">
-                <li class="price-card__list-item">1 bulan bimbel</li>
-                <li class="price-card__list-item">4 kali try out</li>
-                <li class="price-card__list-item">4 kunci jawaban try out</li>
+                <li class="price-card__list-item">3 minggu bimbel</li>
+                <li class="price-card__list-item">3 kali try out</li>
+                <li class="price-card__list-item">3 kunci jawaban try out</li>
                 <li class="price-card__list-item">Booklet Soal</li>
               </ul>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdozKpFFfOzV9pouBRbjoh9GC7O40zTlcTizVOQkOXugOdaJQ/viewform" target="_blank" class="button-pricing">Pilih Paket</a>
+              <a class="button-pricing disable-price">TUTUP</a>
             </div>
           </div>
         </div>
