@@ -32,23 +32,6 @@ class DetailPricing extends HTMLElement {
           <div class="price-item col-lg-3 col-xl-2 col-md-6 col-sm-12 col-12 d-flex justify-content-center"">
             <div class="price-card price-item-best">
               <p class="price-item-best__label">Best Deal</p>
-              <h3 class="price-card__title">Aldebaran</h3>
-              <div class="d-flex align-self-end">
-                <div class="price-card__tag-discount">Diskon 55%</div>
-                <p class="price-card__discount">Rp 700.000</p>
-              </div>
-              <p class="price-card__price">Rp. 315.000</p>
-              <ul class="price-card__list">
-                <li class="price-card__list-item">1 bulan bimbel</li>
-                <li class="price-card__list-item">4 kali try out</li>
-                <li class="price-card__list-item">4 kunci jawaban try out</li>
-                <li class="price-card__list-item">Booklet Soal</li>
-              </ul>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgkX_WSlOGMhwsNYw_RskdAYXor_Vooahv9OAO-qHuB0hGhQ/viewform" target="_blank" class="button-pricing">Pilih Paket</a>
-            </div>
-          </div>
-          <div class="price-item col-lg-3 col-xl-2 col-md-6 col-sm-12 col-12 d-flex justify-content-center"">
-            <div class="price-card">
               <h3 class="price-card__title">Altair</h3>
               <div class="d-flex align-self-end">
                 <div class="price-card__tag-discount">Diskon 54%</div>
