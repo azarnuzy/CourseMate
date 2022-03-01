@@ -32,29 +32,12 @@ class DetailPricing extends HTMLElement {
           <div class="price-item col-lg-3 col-xl-2 col-md-6 col-sm-12 col-12 d-flex justify-content-center"">
             <div class="price-card price-item-best">
               <p class="price-item-best__label">Best Deal</p>
-              <h3 class="price-card__title">Altair</h3>
-              <div class="d-flex align-self-end">
-                <div class="price-card__tag-discount">Diskon 54%</div>
-                <p class="price-card__discount">Rp 550.000</p>
-              </div>
-              <p class="price-card__price">Rp. 253.000</p>
-              <ul class="price-card__list">
-                <li class="price-card__list-item">3 minggu bimbel</li>
-                <li class="price-card__list-item">3 kali try out</li>
-                <li class="price-card__list-item">3 kunci jawaban try out</li>
-                <li class="price-card__list-item">Booklet Soal</li>
-              </ul>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgkX_WSlOGMhwsNYw_RskdAYXor_Vooahv9OAO-qHuB0hGhQ/viewform" target="_blank" class="button-pricing">Pilih Paket</a>
-            </div>
-          </div>
-          <div class="price-item col-lg-3 col-xl-2 col-md-6 col-sm-12 col-12 d-flex justify-content-center"">
-            <div class="price-card">
               <h3 class="price-card__title">Antares</h3>
               <div class="d-flex align-self-end">
-                <div class="price-card__tag-discount">Diskon 45%</div>
+                <div class="price-card__tag-discount">Diskon 50%</div>
                 <p class="price-card__discount">Rp 400.000</p>
               </div>
-              <p class="price-card__price">Rp. 220.000</p>
+              <p class="price-card__price">Rp. 200.000</p>
               <ul class="price-card__list">
                 <li class="price-card__list-item">2 minggu bimbel</li>
                 <li class="price-card__list-item">2 kali try out</li>
