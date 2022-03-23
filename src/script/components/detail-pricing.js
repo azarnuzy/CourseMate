@@ -29,20 +29,39 @@ class DetailPricing extends HTMLElement {
         </div>
         
         <div class="price-list row d-flex justify-content-center">
-          <div class="price-item col-lg-3 col-xl-2 col-md-6 col-sm-12 col-12 d-flex justify-content-center"">
+        <div class="price-item col-lg-3 col-xl-2 col-md-6 col-sm-12 col-12 d-flex justify-content-center"">
             <div class="price-card price-item-best">
               <p class="price-item-best__label">Best Deal</p>
+              <h3 class="price-card__title">Altair</h3>
+              <div class="d-flex align-self-end">
+                <div class="price-card__tag-discount">Diskon 50%</div>
+                <p class="price-card__discount">Rp 630.000</p>
+              </div>
+              <p class="price-card__price">Rp. 315.000</p>
+              <ul class="price-card__list">
+                <li class="price-card__list-item">3 minggu bimbel intensif akademik, literasi & numerasi</li>
+                <li class="price-card__list-item">3 kali try out</li>
+                <li class="price-card__list-item">3 kunci jawaban try out</li>
+                <li class="price-card__list-item">Pre-Test dan Post-Test</li>           
+                <li class="price-card__list-item">Modul Pembelajaran</li>
+              </ul>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgkX_WSlOGMhwsNYw_RskdAYXor_Vooahv9OAO-qHuB0hGhQ/viewform" target="_blank" class="button-pricing">Pilih Paket</a>
+            </div>
+          </div>
+          <div class="price-item col-lg-3 col-xl-2 col-md-6 col-sm-12 col-12 d-flex justify-content-center"">
+            <div class="price-card">
               <h3 class="price-card__title">Antares</h3>
               <div class="d-flex align-self-end">
                 <div class="price-card__tag-discount">Diskon 50%</div>
-                <p class="price-card__discount">Rp 400.000</p>
+                <p class="price-card__discount">Rp 480.000</p>
               </div>
-              <p class="price-card__price">Rp. 200.000</p>
+              <p class="price-card__price">Rp. 240.000</p>
               <ul class="price-card__list">
-                <li class="price-card__list-item">2 minggu bimbel</li>
+                <li class="price-card__list-item">2 minggu bimbel intensif akademik, literasi & numerasi</li>
                 <li class="price-card__list-item">2 kali try out</li>
                 <li class="price-card__list-item">2 kunci jawaban try out</li>
-                <li class="price-card__list-item">Booklet Soal</li>
+                <li class="price-card__list-item">Pre-Test dan Post-Test</li>   
+                <li class="price-card__list-item">Modul Pembelajaran</li>
               </ul>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgkX_WSlOGMhwsNYw_RskdAYXor_Vooahv9OAO-qHuB0hGhQ/viewform" target="_blank" class="button-pricing">Pilih Paket</a>
             </div>
@@ -52,30 +71,53 @@ class DetailPricing extends HTMLElement {
               <h3 class="price-card__title">Starla</h3>
               <div class="d-flex align-self-end">
                 <div class="price-card__tag-discount">Diskon 40%</div>
-                <p class="price-card__discount">Rp 250.000</p>
+                <p class="price-card__discount">Rp 330.000</p>
               </div>
-              <p class="price-card__price">Rp. 150.000</p>
+              <p class="price-card__price">Rp. 198.000</p>
               <ul class="price-card__list">
-                <li class="price-card__list-item">1 minggu bimbel</li>
+                <li class="price-card__list-item">1 minggu bimbel intensif akademik, literasi & numerasi</li>
                 <li class="price-card__list-item">1 kali try out</li>
                 <li class="price-card__list-item">1 kunci jawaban try out</li>
-                <li class="price-card__list-item">Booklet Soal</li>
+                <li class="price-card__list-item">Pre-Test dan Post-Test</li>
+                <li class="price-card__list-item">Modul Pembelajaran</li>
               </ul>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgkX_WSlOGMhwsNYw_RskdAYXor_Vooahv9OAO-qHuB0hGhQ/viewform" target="_blank" class="button-pricing">Pilih Paket</a>
             </div>
           </div>
           <div class="price-item col-lg-3 col-xl-2 col-md-6 col-sm-12 col-12 d-flex justify-content-center"">
             <div class="price-card">
-              <h3 class="price-card__title">Orion</h3>
+              <h3 class="price-card__title">Hydra</h3>
               <div class="d-flex align-self-end">
-                <div class="price-card__tag-discount">Diskon 35%</div>
-                <p class="price-card__discount">Rp 100.000</p>
+                <div class="price-card__tag-discount">Diskon 40%</div>
+                <p class="price-card__discount">Rp 330.000</p>
               </div>
-              <p class="price-card__price">Rp. 65.000</p>
+              <p class="price-card__price">Rp. 198.000</p>
               <ul class="price-card__list">
-                <li class="price-card__list-item">4 kali try out</li>
-                <li class="price-card__list-item">4 kunci jawaban try out</li>
-                <li class="price-card__list-item">Booklet Soal</li>
+                <li class="price-card__list-item">3 minggu bimbel literasi & numerasi</li>
+                <li class="price-card__list-item">3 kali try out</li>
+                <li class="price-card__list-item">3 kunci jawaban try out</li>
+                <li class="price-card__list-item">6 kali pertemuan</li>
+                <li class="price-card__list-item">Pre-Test dan Post-Test</li>
+                <li class="price-card__list-item">Modul Pembelajaran</li>
+              </ul>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgkX_WSlOGMhwsNYw_RskdAYXor_Vooahv9OAO-qHuB0hGhQ/viewform" target="_blank" class="button-pricing">Pilih Paket</a>
+            </div>
+          </div>
+          <div class="price-item col-lg-3 col-xl-2 col-md-6 col-sm-12 col-12 d-flex justify-content-center"">
+            <div class="price-card">
+              <h3 class="price-card__title">Aquila</h3>
+              <div class="d-flex align-self-end">
+                <div class="price-card__tag-discount">Diskon 25%</div>
+                <p class="price-card__discount">Rp 240.000</p>
+              </div>
+              <p class="price-card__price">Rp. 180.000</p>
+              <ul class="price-card__list">
+              <li class="price-card__list-item">2 minggu bimbel literasi & numerasi</li>
+              <li class="price-card__list-item">2 kali try out</li>
+              <li class="price-card__list-item">2 kunci jawaban try out</li>
+              <li class="price-card__list-item">4 kali pertemuan</li>
+              <li class="price-card__list-item">Pre-Test dan Post-Test</li>
+              <li class="price-card__list-item">Modul Pembelajaran</li>
               </ul>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgkX_WSlOGMhwsNYw_RskdAYXor_Vooahv9OAO-qHuB0hGhQ/viewform" target="_blank" class="button-pricing">Pilih Paket</a>
             </div>
@@ -91,7 +133,7 @@ class DetailPricing extends HTMLElement {
               <ul class="price-card__list">
                 <li class="price-card__list-item">1 kali try out</li>
                 <li class="price-card__list-item">1 kunci jawaban try out</li>
-                <li class="price-card__list-item">Booklet Soal</li>
+                <li class="price-card__list-item">Modul Pembelajaran</li>
               </ul>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgkX_WSlOGMhwsNYw_RskdAYXor_Vooahv9OAO-qHuB0hGhQ/viewform" target="_blank" class="button-pricing">Pilih Paket</a>
             </div>
@@ -133,7 +175,7 @@ class DetailPricing extends HTMLElement {
                 <li class="price-card__list-item">1 bulan bimbel</li>
                 <li class="price-card__list-item">4 kali try out</li>
                 <li class="price-card__list-item">4 kunci jawaban try out</li>
-                <li class="price-card__list-item">Booklet Soal</li>
+                <li class="price-card__list-item">Modul Pembelajaran</li>
               </ul>
               <a class="button-pricing disable-price">TUTUP</a>
             </div>
